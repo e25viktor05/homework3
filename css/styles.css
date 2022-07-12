@@ -1,11 +1,17 @@
+:root {
+    --primary-font: 'Roboto', sans-serif;
+ --accent-color:#2196F3;
+}
+
+
 .list {
     list-style: none;
 }
 .link {
     text-decoration: none;
 }       
-.body {
-    font-family: 'Roboto', sans-serif;
+body {
+    font-family: var(--primary-font)
 }
     
                                      /*===== DOCUMENT PAGE ======*/
@@ -17,7 +23,7 @@
         font-size: 26px;
         line-height: 1.19;
         letter-spacing: 0.03em;
-       color: #2196F3;
+       color: var(--accent-color);
     text-decoration: none;
 }
 .logo-color-header {
@@ -34,7 +40,7 @@
 }
 .menu-link:hover,
 .menu-link:focus {
-color: #2196F3;
+color: var(--accent-color);
 }
 
 .contact-email{
@@ -46,7 +52,7 @@ color: #2196F3;
 }
 .contact-email:hover,
 .contact-email:focus{
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .contact-phone-number {
@@ -59,7 +65,7 @@ color: #2196F3;
 }
 .contact-phone-number:hover,
 .contact-phone-number:focus {
-color: #2196F3;
+color: var(--accent-color);
 }
 
                                   /* ================  HERO   ========= */
@@ -70,7 +76,7 @@ color: #2196F3;
         line-height: 1.87;
         color: #FFFFFF;
         cursor: pointer;
-        background: #2196F3
+        background: var(--accent-color)
 }
 .hero-title {
         font-weight: 900;
@@ -148,7 +154,7 @@ background: #2F303A;
 }
 .contacts:hover,
 .contacts:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .logo-color-footer {
     color: #FFFFFF;
@@ -174,7 +180,7 @@ background: #2F303A;
 .portfolio-btn:hover,
 .portfolio-btn:focus {
         color: #FFFFFF;
-        background: #2196F3;
+        background: var(--accent-color);
 }
  
                                       /* ======== PORTFOLIO PROJECTS ========= */
