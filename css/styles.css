@@ -156,16 +156,18 @@ font-family: 'Roboto', sans-serif;
                                
                 /* =============  =======  PORTFOLIO HERO  ======   ============ */
                     
-    .portfolio-links{
+    .portfolio-btn{
         font-family: 'Roboto', sans-serif;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.62;
         letter-spacing: 0.03em;
-        color: #212121
+        color: #212121;
+        cursor: pointer;
+        
     }
-.portfolio-links:hover,
-.portfolio-links:focus {
+.portfolio-btn:hover,
+.portfolio-btn:focus {
         color: #FFFFFF;
 }
  
@@ -183,8 +185,8 @@ font-family: 'Roboto', sans-serif;
 .project-category{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 1.88;
-    line-height: 30px;
+    font-size: 16px;
+    line-height: 1.88;
     letter-spacing: 0.03em;
     color: #757575;
 } 
