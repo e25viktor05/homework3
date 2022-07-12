@@ -1,0 +1,191 @@
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}       
+    
+                                     /*===== DOCUMENT PAGE ======*/
+
+                                    /* ======= DOCUMENT HEADER ==========*/
+.logo {
+    font-family: 'Raleway',sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+       color: #2196F3;
+    text-decoration: none;
+}
+.menu-link {
+    font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+       color: #212121;
+    
+}
+.menu-link:hover,
+.menu-link:focus {
+color: #2196F3;
+}
+
+.contact-email{
+    font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: #757575;;
+}
+.contact-email:hover,
+.contact-email:focus{
+    color: #2196F3;
+}
+
+.contact-phone-number {
+font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+    
+}
+.contact-phone-number:hover,
+.contact-phone-number:focus {
+color: #2196F3;
+}
+
+                                  /* ================  HERO   ========= */
+
+.modal-btn {
+font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.87;
+        color: #FFFFFF;
+        cursor: pointer;
+
+}
+.hero-title {
+    font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+    
+        /* color: #FFFFFF; */
+}
+                                 /* ===============  ADVANTAGES   =========== */
+
+.subtitle {
+   font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+        color: #212121;
+}
+
+.subtitle-text{
+    font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+
+                                   /*============= WHAT WE ARE DOING ============*/
+
+.secondary-subheading {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: #212121;
+}
+
+                                    /* =============  OUR TEAM  ========= */
+
+.names{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #212121;
+                                    }
+
+.position {
+    font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+                                 
+                                     /* ===========   FOOTER  ========= */
+
+.contacts{
+    font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        /* color: #FFFFFF; */
+}
+.contacts:hover,
+.contacts:focus {
+    color: #2196F3;
+}
+                               /*======== END OF DOCUMENT PAGE ========*/
+
+                             /* ======= === PORTFOLIO PAGE === ======== */
+                               
+                /* =============  =======  PORTFOLIO HERO  ======   ============ */
+                    
+    .portfolio-links{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        letter-spacing: 0.03em;
+        color: #212121
+    }
+.portfolio-links:hover,
+.portfolio-links:focus {
+        color: #FFFFFF;
+}
+ 
+                                      /* ======== PORTFOLIO PROJECTS ========= */
+
+.project-name {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height:2.0;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.project-category{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.88;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+} 
+                              /* ======== ======  END OF PORTFOLIO  PAGE ====== ========== */
