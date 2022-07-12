@@ -4,6 +4,9 @@
 .link {
     text-decoration: none;
 }       
+.body {
+    font-family: 'Roboto', sans-serif;
+}
     
                                      /*===== DOCUMENT PAGE ======*/
 
@@ -17,8 +20,11 @@
        color: #2196F3;
     text-decoration: none;
 }
+.logo-color-header {
+        color: #000000;
+}
+
 .menu-link {
-    font-family: 'Roboto', sans-serif;
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
@@ -32,7 +38,6 @@ color: #2196F3;
 }
 
 .contact-email{
-    font-family: 'Roboto', sans-serif;
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
@@ -45,7 +50,6 @@ color: #2196F3;
 }
 
 .contact-phone-number {
-font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -61,29 +65,30 @@ color: #2196F3;
                                   /* ================  HERO   ========= */
 
 .modal-btn {
-font-family: 'Roboto', sans-serif;
         font-weight: 700;
         font-size: 16px;
         line-height: 1.87;
         color: #FFFFFF;
         cursor: pointer;
-
+        background: #2196F3
 }
 .hero-title {
-    font-family: 'Roboto', sans-serif;
         font-weight: 900;
         font-size: 44px;
         line-height: 1.36;
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
-    
-        /* color: #FFFFFF; */
+        color: #FFFFFF;
+       
+}
+.color-hero {
+background: #2F303A;
 }
                                  /* ===============  ADVANTAGES   =========== */
 
 .subtitle {
-   font-family: 'Roboto', sans-serif;
+   
         font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
@@ -94,7 +99,6 @@ font-family: 'Roboto', sans-serif;
 }
 
 .subtitle-text{
-    font-family: 'Roboto', sans-serif;
         font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
@@ -105,7 +109,6 @@ font-family: 'Roboto', sans-serif;
                                    /*============= WHAT WE ARE DOING ============*/
 
 .secondary-subheading {
-        font-family: 'Roboto', sans-serif;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.16;
@@ -118,7 +121,6 @@ font-family: 'Roboto', sans-serif;
                                     /* =============  OUR TEAM  ========= */
 
 .names{
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -127,7 +129,6 @@ font-family: 'Roboto', sans-serif;
                                     }
 
 .position {
-    font-family: 'Roboto', sans-serif;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.19;
@@ -137,18 +138,23 @@ font-family: 'Roboto', sans-serif;
                                  
                                      /* ===========   FOOTER  ========= */
 
-.contacts{
-    font-family: 'Roboto', sans-serif;
+.contacts {
         font-weight: 400;
         font-style: normal;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
-        /* color: #FFFFFF; */
+        color: #FFFFFF;
 }
 .contacts:hover,
 .contacts:focus {
     color: #2196F3;
+}
+.logo-color-footer {
+    color: #FFFFFF;
+}
+.footer-color {
+    background: #2F303A;
 }
                                /*======== END OF DOCUMENT PAGE ========*/
 
@@ -156,8 +162,7 @@ font-family: 'Roboto', sans-serif;
                                
                 /* =============  =======  PORTFOLIO HERO  ======   ============ */
                     
-    .portfolio-btn{
-        font-family: 'Roboto', sans-serif;
+    .portfolio-btn {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.62;
@@ -169,12 +174,12 @@ font-family: 'Roboto', sans-serif;
 .portfolio-btn:hover,
 .portfolio-btn:focus {
         color: #FFFFFF;
+        background: #2196F3;
 }
  
                                       /* ======== PORTFOLIO PROJECTS ========= */
 
 .project-name {
-    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height:2.0;
@@ -182,8 +187,7 @@ font-family: 'Roboto', sans-serif;
     color: #212121;
 }
 
-.project-category{
-    font-family: 'Roboto', sans-serif;
+.project-category {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
