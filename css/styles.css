@@ -42,7 +42,7 @@ body {
 color: var(--accent-color);
 }
 .current {
-    accent-color: var(--accent-color);
+    color: var(--accent-color);
 }
 
 .contact-email{
