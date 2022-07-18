@@ -11,6 +11,9 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
+      <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
     />
   </head>
   <body>
@@ -35,19 +38,15 @@
 
       <ul class="menu list">
         <li class="menu-item">
-          <a class="contact-email link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
+          <a class="contact-email link" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
         <li class="menu-item">
-          <a class="contact-phone-number link" href="tel:+380961111111"
-            >+38 096 111 11 11</a
-          >
+          <a class="contact-phone-number link" href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>
     </header>
     <!-- portfolio hero -->
-    <main>
+    <main class="section">
       <ul class="list">
         <li class="menu-item">
           <button class="portfolio-btn" type="button">Все</button>
@@ -66,70 +65,79 @@
         </li>
       </ul>
       <!-- portfolio projects -->
-      <ul class="list">
-        <li>
-          <img src="./images/portfolio/projects/технокряк.jpg" alt="технокряк"
-          width="370" height="294"
+      <ul class="list portfolio-lists">
+        <li class="portfolio-project-lists">
+          <img src="./images/portfolio/projects/технокряк.jpg" alt="технокряк" width="370"
+          height="294"
         </li>
-        <h2 class="project-name">Технокряк</h2>
-        <p class="project-category">Веб-сайт</p>
+        <div class="project-name-cards">
+          <h2 class="project-name">Технокряк</h2>
+          <p class="project-category">Веб-сайт</p>
+        </div>
 
-        <li>
-          <img src="./images/portfolio/projects/постер.jpg" alt="постер"
+        <li class="portfolio-project-lists">
+          <img src="./images/portfolio/projects/постер.jpg" alt="постер" width="370" height="294"
+        </li>
+        <div class="project-name-cards">
+          <h2 class="project-name">Постер <span lang="en"> New Orlean vs Golden Star </span></h2>
+          <p class="project-category">Дизайн</p>
+        </div>
+        <li class="portfolio-project-lists">
+          <img src="./images/portfolio/projects/лого-ресторана.jpg" alt="логотип лого-ресторана"
           width="370" height="294"
         </li>
 
-        <h2 class="project-name">
-          Постер <span lang="en"> New Orlean vs Golden Star </span>
-        </h2>
-        <p class="project-category">Дизайн</p>
-        <li>
-          <img src="./images/portfolio/projects/лого-ресторана.jpg" alt="логотип
-          лого-ресторана" width="370" height="294"
+        <div class="project-name-cards">
+          <h2 class="project-name">Ресторан <span lang="en">Seafood</span></h2>
+          <p class="project-category">Приложение</p>
+        </div>
+        <li class="portfolio-project-lists">
+          <img src="./images/portfolio/projects/прайм.jpg" alt="наушники" width="370" height="294"
         </li>
-
-        <h2 class="project-name">Ресторан <span lang="en">Seafood</span></h2>
-        <p class="project-category">Приложение</p>
-        <li>
-          <img src="./images/portfolio/projects/прайм.jpg" alt="наушники"
-          width="370" height="294"
+        <div class="project-name-cards">
+          <h2 class="project-name">Проект <span lang="en">Prime</span></h2>
+          <p class="project-category">Маркетинг</p>
+        </div>
+        <li class="portfolio-project-lists">
+          <img src="./images/portfolio/projects/коробки.jpg" alt="две коробки" width="370"
+          height="294"
         </li>
-        <h2 class="project-name">Проект <span lang="en">Prime</span></h2>
-        <p class="project-category">Маркетинг</p>
-        <li>
-          <img src="./images/portfolio/projects/коробки.jpg" alt="две коробки"
-          width="370" height="294"
+        <div class="project-name-cards">
+          <h2 class="project-name">Проект <span lang="en">Boxes</span></h2>
+          <p class="project-category">Приложение</p>
+        </div>
+        <li class="portfolio-project-lists">
+          <img src="./images/portfolio/projects/вдохновление.jpg" alt="экран монитора" width="370"
+          height="294"
         </li>
-        <h2 class="project-name">Проект <span lang="en">Boxes</span></h2>
-        <p class="project-category">Приложение</p>
-        <li>
-          <img src="./images/portfolio/projects/вдохновление.jpg" alt="экран
-          монитора" width="370" height="294"
+        <div class="project-name-cards">
+          <h2 class="project-name" class="project-name" lang="en">Inspiration has no Borders</h2>
+          <p class="project-category">Веб-сайт</p>
+        </div>
+        <li class="portfolio-project-lists">
+          <img src="./images/portfolio/projects/издание.jpg" alt="развернутый журнал" width="370"
+          height="294"
         </li>
-        <h2 class="project-name" class="project-name" lang="en">
-          Inspiration has no Borders
-        </h2>
-        <p class="project-category">Веб-сайт</p>
-        <li>
-          <img src="./images/portfolio/projects/издание.jpg" alt="развернутый
-          журнал" width="370" height="294"
+        <div class="project-name-cards">
+          <h2 class="project-name">Издание <span lang="en">Limited Edition</span></h2>
+          <p class="project-category">Дизайн</p>
+        </div>
+        <li class="portfolio-project-lists">
+          <img src="./images/portfolio/projects/лаб.jpg" alt="брелок логотип" width="370"
+          height="294"
         </li>
-        <h2 class="project-name">
-          Издание <span lang="en">Limited Edition</span>
-        </h2>
-        <p class="project-category">Дизайн</p>
-        <li>
-          <img src="./images/portfolio/projects/лаб.jpg" alt="брелок логотип"
-          width="370" height="294"
+        <div class="project-name-cards">
+          <h2 class="project-name">Проект <span lang="en">LAB</span></h2>
+          <p class="project-category">Маркетинг</p>
+        </div>
+        <li class="portfolio-project-lists">
+          <img src="./images/portfolio/projects/макбук.jpg" alt="работающий макбук" width="370"
+          height="294"
         </li>
-        <h2 class="project-name">Проект <span lang="en">LAB</span></h2>
-        <p class="project-category">Маркетинг</p>
-        <li>
-          <img src="./images/portfolio/projects/макбук.jpg" alt="работающий
-          макбук" width="370" height="294"
-        </li>
-        <h2 class="project-name" lang="en">Growing Business</h2>
-        <p class="project-category">Приложение</p>
+        <div class="project-name-cards">
+          <h2 class="project-name" lang="en">Growing Business</h2>
+          <p class="project-category">Приложение</p>
+        </div>
       </ul>
     </main>
     <!-- footer -->
@@ -150,14 +158,10 @@
             >
           </li>
           <li class="menu-item">
-            <a class="contact-detail link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
+            <a class="contact-detail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
           <li class="menu-item">
-            <a class="contact-detail link" href="tel:+380961111111"
-              >+38 096 111 11 11</a
-            >
+            <a class="contact-detail link" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
       </address>

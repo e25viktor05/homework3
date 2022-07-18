@@ -2,6 +2,33 @@
     --primary-font: 'Roboto', sans-serif;
     --accent-color:#2196F3;
 }
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+
+}
+
+img {
+    display: block;
+}
+
+button{
+cursor: pointer;
+}
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 .list {
     list-style: none;
@@ -10,12 +37,38 @@
     text-decoration: none;
 }       
 body {
-    font-family: var(--primary-font)
+    font-family: var(--primary-font);
 }
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+
     
                                      /*===== DOCUMENT PAGE ======*/
 
                                     /* ======= DOCUMENT HEADER ==========*/
+.page-header{
+    padding-bottom: 19px;
+}
+
+.header-container{
+  display:flex;
+  align-items:center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.page-nav {
+    display:flex;
+    align-items: center;
+}
+
 .logo {
     font-family: 'Raleway',sans-serif;
         font-weight: 700;
@@ -24,9 +77,25 @@ body {
         letter-spacing: 0.03em;
        color: var(--accent-color);
     text-decoration: none;
+    /* margin-right: 93px; */
 }
+
+
 .logo-color-header {
         color: #000000;
+        /* padding-top: 24px;
+        padding-bottom: 24px; */
+}
+
+
+.menu {
+    display:flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.menu-item:not(:last-child) {
+margin-right: 50px;
 }
 
 .menu-link {
@@ -41,6 +110,7 @@ body {
 .menu-link:focus {
 color: var(--accent-color);
 }
+
 .current {
     color: var(--accent-color);
 }
@@ -63,8 +133,10 @@ color: var(--accent-color);
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
+    padding-right: 15px;
     
 }
+
 .contact-phone-number:hover,
 .contact-phone-number:focus {
 color: var(--accent-color);
@@ -72,16 +144,30 @@ color: var(--accent-color);
 
                                   /* ================  HERO   ========== */
                                   
+.hero-section {
+
+}
 
 .modal-btn {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-right: 37px;
+        padding-left: 37px;
         font-weight: 700;
         font-size: 16px;
         line-height: 1.87;
         color: #FFFFFF;
-        cursor: pointer;
-        background: var(--accent-color)
-}
+        background: var(--accent-color);
+        font-family: inherit;
+        letter-spacing: 0.06em;
+        border-radius: 4px;
+        }
+
 .hero-title {
+        padding-top: 200px;
+        padding-bottom:280px;
+        padding-right:452px;
+        padding-left:452px;
         font-weight: 900;
         font-size: 44px;
         line-height: 1.36;
@@ -94,9 +180,17 @@ color: var(--accent-color);
 .color-hero {
 background: #2F303A;
 }
-                                 /* ===============  ADVANTAGES   =========== */
 
-.subtitle {
+                                 /* ===============  ADVANTAGES   =========== */
+ .emoloyees-section{
+    background-color: #FFFFFF;
+   
+
+
+
+ }
+
+ .subtitle {
    
         font-weight: 700;
         font-size: 14px;
@@ -126,6 +220,29 @@ background: #2F303A;
 }
 
                                     /* =============  OUR TEAM  ========= */
+
+.employees-title{
+    margin-bottom: 50px;
+}
+.employees-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.employees-card{
+    flex-basis: calc((100% - 90px)/4);
+    
+}
+
+
+.empolyees-card-description{
+    border: 1px solid #EEEEEE;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 0px 0px 4px 4px;
+
+}
 
 .names{
     font-weight: 500;
@@ -173,13 +290,14 @@ background: #2F303A;
                                
                 /* =============  =======  PORTFOLIO HERO  ======   ============ */
                     
-    .portfolio-btn {
+
+.portfolio-btn {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.62;
         letter-spacing: 0.03em;
         color: #212121;
-        cursor: pointer;
+        font-family: inherit;
         
     }
 .portfolio-btn:hover,
@@ -188,7 +306,22 @@ background: #2F303A;
         background: var(--accent-color);
 }
  
-                                      /* ======== PORTFOLIO PROJECTS ========= */
+                                      /* ======== PORTFOLIO PROJECTS =========*/                      
+.portfolio-project-lists {
+    flex-basis: calc((100% - 60px)/3);
+ }
+                                    
+.portfolio-lists {
+    display: flex;
+     flex-wrap: wrap;
+     gap: 30px;
+    }
+
+.project-name-cards {
+   border:1px solid #EEEEEE;
+   border-top: none;
+    padding-top: 30px;
+}
 
 .project-name {
     font-weight: 700;
