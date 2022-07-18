@@ -22,9 +22,8 @@ img {
     display: block;
 }
 
-button{
-cursor: pointer;
-
+button {
+cursor: pointer; 
 }
 .section {
     padding-top: 94px;
@@ -145,9 +144,6 @@ color: var(--accent-color);
 
                                   /* ================  HERO   ========== */
                                   
-.hero-section {
-
-}
 
 .modal-btn {
         padding-top: 8px;
