@@ -25,6 +25,7 @@ img {
 button {
 cursor: pointer; 
 }
+
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -71,7 +72,7 @@ body {
     align-items: center;
 }
 
-.logo {
+.logo-header {
     font-family: 'Raleway',sans-serif;
         font-weight: 700;
         font-size: 26px;
@@ -79,7 +80,7 @@ body {
         letter-spacing: 0.03em;
        color: var(--accent-color);
     text-decoration: none;
-    /* margin-right: 93px; */
+    margin-right: 93px;
 }
 
 
@@ -160,34 +161,68 @@ color: var(--accent-color);
         font-family: inherit;
         letter-spacing: 0.06em;
         border-radius: 4px;
+        margin-top: 30px;
         }
 
 .hero-title {
-        padding-top: 200px;
-        padding-bottom:280px;
-        padding-right:452px;
-        padding-left:452px;
+    
         font-weight: 900;
         font-size: 44px;
         line-height: 1.36;
-        text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
         color: #FFFFFF;
+        margin-left: auto;
+        margin-right: auto;
+        width: 691px;
        
 }
 .color-hero {
 background: #2F303A;
 }
 
+.hero-section{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+
                                  /* ===============  ADVANTAGES   =========== */
- .emoloyees-section{
-    background-color: #FFFFFF;
+ 
+ 
+ .list{
+    display: flex;
+    flex-basis: calc((100% - 90px)/4);
    
-
-
-
  }
+ 
+ .visually-hidden {
+     position: absolute;
+     width: 1px;
+     height: 1px;
+     margin: -1px;
+     border: 0;
+     padding: 0;
+
+     white-space: nowrap;
+     clip-path: inset(100%);
+     clip: rect(0 0 0 0);
+     overflow: hidden;
+ }
+
+.emoloyees-section{
+    background-color: #FFFFFF;
+    
+ }
+
+ .advantages-description{
+    width: 270px;
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: calc((100% - 90px)/4);
+ }
+
 
  .subtitle {
    
@@ -196,7 +231,6 @@ background: #2F303A;
         line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-    
         color: #212121;
 }
 
@@ -204,6 +238,7 @@ background: #2F303A;
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: #757575;
+        margin-bottom: 10px;
 }
 
                                    /*============= WHAT WE ARE DOING ============*/
@@ -214,19 +249,45 @@ background: #2F303A;
         line-height: 1.16;
         text-align: center;
         letter-spacing: 0.03em;
-    
         color: #212121;
+        padding-bottom: 50px;
+    
+}
+.list{
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+    
 }
 
+
+
                                     /* =============  OUR TEAM  ========= */
+.employees-list{
+    list-style: none;
+}
+
+.team-container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: #F5F4FA;
+}
 
 .employees-title{
     margin-bottom: 50px;
+    margin-top: 94px;
 }
+
+
+
 .employees-list{
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    padding-bottom: 94px;
 }
 
 .employees-card{
@@ -234,13 +295,12 @@ background: #2F303A;
     
 }
 
-
 .empolyees-card-description{
-    border: 1px solid #EEEEEE;
+    
     padding-top: 30px;
     padding-bottom: 30px;
-    border-radius: 0px 0px 4px 4px;
-
+    text-align: center;
+    background-color: #FFFFFF;
 }
 
 .names{
@@ -259,7 +319,28 @@ background: #2F303A;
                                  
                                      /* ===========   FOOTER  ========= */
 
-.contacts {
+   
+
+.logo-footer{
+    font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: var(--accent-color);
+        text-decoration: none;
+        /* display: block; */
+        /* margin-right: 93px; */
+        margin-bottom: 20px;
+}
+.menu-item {
+    display: block;
+}
+ .menu-item:not(:last-child) {
+margin-bottom: 10px;
+ }
+
+    .contacts {
         font-style: normal;
         font-size: 14px;
         line-height: 1.71;
@@ -282,13 +363,18 @@ background: #2F303A;
 }
 .footer-color {
     background: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
                                /*======== END OF DOCUMENT PAGE ========*/
 
                              /* ======= === PORTFOLIO PAGE === ======== */
                                
                 /* =============  =======  PORTFOLIO HERO  ======   ============ */
-                    
+    .list{
+        display: flex;
+        justify-content: center;
+    }
 
 .portfolio-btn {
         font-weight: 500;
