@@ -45,7 +45,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
-    padding-bottom: 15px;
+    padding-right: 15px;
 }
 
 
@@ -54,7 +54,9 @@ body {
 
                                     /* ======= DOCUMENT HEADER ==========*/
 .page-header{
-    padding-bottom: 19px;
+    padding-bottom: 24px;
+    padding-top: 24px ;
+    border-bottom: 1px solid;
 }
 
 .header-container{
