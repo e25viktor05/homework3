@@ -96,6 +96,10 @@ body {
     align-items: center;
     margin-left: auto;
 }
+ 
+.menu-link.current {
+    color: var(--accent-color);
+}
 
 .menu-item:not(:last-child) {
 margin-right: 50px;
