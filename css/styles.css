@@ -329,8 +329,6 @@ background: #2F303A;
         letter-spacing: 0.03em;
         color: var(--accent-color);
         text-decoration: none;
-        /* display: block; */
-        /* margin-right: 93px; */
         margin-bottom: 20px;
 }
 .menu-item {
