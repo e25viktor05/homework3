@@ -294,7 +294,6 @@ background: #2F303A;
 }
 
 
-
 .employees-list{
     display: flex;
     flex-wrap: wrap;
@@ -322,7 +321,7 @@ background: #2F303A;
     letter-spacing: 0.03em;
     color: #212121;
     margin-bottom: 12px;
-                                    }
+}
 
 .position {
         line-height: 1.19;
