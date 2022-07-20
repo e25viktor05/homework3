@@ -57,14 +57,13 @@ body {
 .page-header{
     padding-bottom: 24px;
     padding-top: 24px ;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .header-container{
   display:flex;
   align-items:center;
-  padding-top: 32px;
-  padding-bottom: 32px;
+
 }
 
 .page-nav {
@@ -193,13 +192,13 @@ background: #2F303A;
 
                                  /* ===============  ADVANTAGES   =========== */
  
- 
- .list{
-    display: flex;
-    flex-basis: calc((100% - 90px)/4);
-   
+ .list-advantages{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
  }
- 
+
  .visually-hidden {
      position: absolute;
      width: 1px;
@@ -215,17 +214,17 @@ background: #2F303A;
  }
 
 .emoloyees-section{
-    background-color: #FFFFFF;
+    background-color: #F5F5F5;;
     
  }
 
- .advantages-description{
+ /* .advantages-description{
     width: 270px;
-    gap: 30px;
+    /* gap: 30px;
     display: flex;
     flex-wrap: wrap;
-    flex-basis: calc((100% - 90px)/4);
- }
+    flex-basis: calc((100% - 90px)/4); }*/
+  
 
 
  .subtitle {
@@ -236,37 +235,45 @@ background: #2F303A;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #212121;
+        margin-bottom: 10px;
 }
 
 .subtitle-text{
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: #757575;
-        margin-bottom: 10px;
+        /* margin-bottom: 10px; */
 }
 
                                    /*============= WHAT WE ARE DOING ============*/
 
-.secondary-subheading {
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.16;
-        text-align: center;
-        letter-spacing: 0.03em;
-        color: #212121;
-        padding-bottom: 50px;
-    
+.section-color{
+    background-color: #F5F5F5;;
 }
+
+.business-subheading {
+   text-align: center;
+    margin-bottom: 50px;    
+}
+
 .list{
     justify-content: center;
     display: flex;
-    gap: 30px;
-    
+    gap: 30px;   
 }
 
 
 
                                     /* =============  OUR TEAM  ========= */
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+}
+.team-section {
+    background-color: #F5F4FA;
+}
+
 .employees-list{
     list-style: none;
 }
@@ -282,7 +289,8 @@ background: #2F303A;
 
 .employees-title{
     margin-bottom: 50px;
-    margin-top: 94px;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 
@@ -291,7 +299,7 @@ background: #2F303A;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    padding-bottom: 94px;
+    /* padding-bottom: 94px; */
 }
 
 .employees-card{
@@ -313,6 +321,7 @@ background: #2F303A;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #212121;
+    margin-bottom: 12px;
                                     }
 
 .position {
@@ -323,7 +332,14 @@ background: #2F303A;
                                  
                                      /* ===========   FOOTER  ========= */
 
-   
+   .list {
+    list-style: none;
+   }
+.footer-menu-item:not(:last-child)
+{
+    margin-right: 50px;
+}
+
 
 .logo-footer{
     font-family: 'Raleway', sans-serif;
@@ -338,9 +354,6 @@ background: #2F303A;
 .menu-item {
     display: block;
 }
- .menu-item:not(:last-child) {
-margin-bottom: 10px;
- }
 
     .contacts {
         font-style: normal;
@@ -373,10 +386,7 @@ margin-bottom: 10px;
                              /* ======= === PORTFOLIO PAGE === ======== */
                                
                 /* =============  =======  PORTFOLIO HERO  ======   ============ */
-    .list{
-        display: flex;
-        justify-content: center;
-    }
+    
 
 .portfolio-btn {
         font-weight: 500;
@@ -385,7 +395,12 @@ margin-bottom: 10px;
         letter-spacing: 0.03em;
         color: #212121;
         font-family: inherit;
+        margin-bottom: 34px;
         
+        
+    }
+    portfolio-btn:not(:last-child){
+        margin-right: 8px;
     }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
@@ -408,6 +423,8 @@ margin-bottom: 10px;
    border:1px solid #EEEEEE;
    border-top: none;
     padding-top: 30px;
+    padding-left: 24px;
+    padding-bottom: 20px;
 }
 
 .project-name {
