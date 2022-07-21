@@ -196,6 +196,7 @@ background: #2F303A;
     margin: 0;
     padding: 0;
     list-style: none;
+    gap: 30px;
 
  }
 
@@ -213,19 +214,15 @@ background: #2F303A;
      overflow: hidden;
  }
 
-.emoloyees-section{
+/* .emoloyees-section{
     background-color: #F5F5F5;;
     
- }
+ } */
 
- /* .advantages-description{
+ .advantages-description{
     width: 270px;
-    /* gap: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-basis: calc((100% - 90px)/4); }*/
-  
-
+}
+   
 
  .subtitle {
    
@@ -244,22 +241,28 @@ background: #2F303A;
         color: #757575;
         /* margin-bottom: 10px; */
 }
+.list{
+    justify-content: center;
+        display: flex;
+}
 
                                    /*============= WHAT WE ARE DOING ============*/
 
-.section-color{
+/* .section-color{
     background-color: #F5F5F5;;
-}
+} */
 
 .business-subheading {
    text-align: center;
     margin-bottom: 50px;    
 }
 
-.list{
+.do-list{
     justify-content: center;
     display: flex;
-    gap: 30px;   
+    gap: 30px; 
+    list-style: none;
+
 }
 
 
@@ -331,13 +334,16 @@ background: #2F303A;
                                  
                                      /* ===========   FOOTER  ========= */
 
-   .list {
+   .list-menu {
     list-style: none;
    }
-.footer-menu-item:not(:last-child)
+   .list-menu:not(:last-child){
+    margin-bottom: 10px;
+   }
+/* .footer-menu-item:not(:last-child)
 {
     margin-right: 50px;
-}
+} */
 
 
 .logo-footer{
@@ -349,10 +355,11 @@ background: #2F303A;
         color: var(--accent-color);
         text-decoration: none;
         margin-bottom: 20px;
+        display: block;
 }
-.menu-item {
+/* .menu-item {
     display: block;
-}
+} */
 
     .contacts {
         font-style: normal;
@@ -386,6 +393,9 @@ background: #2F303A;
                                
                 /* =============  =======  PORTFOLIO HERO  ======   ============ */
     
+.portfolio-list-hero{
+margin-bottom: 34px;
+}
 
 .portfolio-btn {
         font-weight: 500;
@@ -394,8 +404,6 @@ background: #2F303A;
         letter-spacing: 0.03em;
         color: #212121;
         font-family: inherit;
-        margin-bottom: 34px;
-        
         
     }
     portfolio-btn:not(:last-child){
@@ -432,6 +440,7 @@ background: #2F303A;
     line-height:2.0;
     letter-spacing: 0.06em;
     color: #212121;
+    margin-bottom: 4px;
 }
 
 .project-category {
