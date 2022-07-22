@@ -222,7 +222,10 @@ background: #2F303A;
  .advantages-description{
     width: 270px;
 }
-   
+   .emoloyees-section{
+    padding-top: 94px;
+    padding-bottom: 64px;
+   }
 
  .subtitle {
    
@@ -251,10 +254,17 @@ background: #2F303A;
 /* .section-color{
     background-color: #F5F5F5;;
 } */
-
+ .section {
+    padding-top: 0px;
+ }
 .business-subheading {
    text-align: center;
-    margin-bottom: 50px;    
+    margin-bottom: 50px;   
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
 }
 
 .do-list{
@@ -291,6 +301,11 @@ background: #2F303A;
 }
 
 .employees-title{
+    font-size: 36px;
+    line-height: 1.7;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
     margin-bottom: 50px;
     text-align: center;
     margin-bottom: 50px;
@@ -429,8 +444,9 @@ margin-bottom: 34px;
 .project-name-cards {
    border:1px solid #EEEEEE;
    border-top: none;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-left: 24px;
+    padding-right: 24px;
     padding-bottom: 20px;
 }
 
