@@ -352,13 +352,10 @@ background: #2F303A;
    .list-menu {
     list-style: none;
    }
+   
    .footer-menu-item:not(:last-child){
     margin-bottom: 10px;
    }
-/* .footer-menu-item:not(:last-child)
-{
-    margin-right: 50px;
-} */
 
 
 .logo-footer{
@@ -372,9 +369,7 @@ background: #2F303A;
         margin-bottom: 20px;
         display: block;
 }
-/* .menu-item {
-    display: block;
-} */
+
 
     .contacts {
         font-style: normal;
