@@ -352,7 +352,7 @@ background: #2F303A;
    .list-menu {
     list-style: none;
    }
-   .list-menu:not(:last-child){
+   .footer-menu-item:not(:last-child){
     margin-bottom: 10px;
    }
 /* .footer-menu-item:not(:last-child)
@@ -405,12 +405,25 @@ background: #2F303A;
                                /*======== END OF DOCUMENT PAGE ========*/
 
                              /* ======= === PORTFOLIO PAGE === ======== */
-                               
+    .portfolio-page-header{
+    padding-bottom: 24px;
+    padding-top: 24px;
+    border-bottom: 1px solid #ECECEC;
+    margin-bottom: 94px;
+
+    }
                 /* =============  =======  PORTFOLIO HERO  ======   ============ */
     
 .portfolio-list-hero{
 margin-bottom: 34px;
 }
+ .portfolio-menu-item:not(:last-child){
+margin-right: 8px;
+border:none;
+padding-left: auto;
+padding-right:auto;
+padding-bottom: 34px;
+ }
 
 .portfolio-btn {
         font-weight: 500;
@@ -464,4 +477,5 @@ margin-bottom: 34px;
     letter-spacing: 0.03em;
     color: #757575;
 } 
+
                               /* ======== ======  END OF PORTFOLIO  PAGE ====== ========== */
