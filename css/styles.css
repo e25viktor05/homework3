@@ -362,6 +362,7 @@ background: #2F303A;
     margin-bottom: 10px;
    }
 
+   
 
 .logo-footer{
     font-family: 'Raleway', sans-serif;
@@ -404,12 +405,55 @@ background: #2F303A;
 }
                                /*======== END OF DOCUMENT PAGE ========*/
 
-                             /* ======= === PORTFOLIO PAGE === ======== */
+
+
+/* ======End Of Portfolio Header======= */
+
+
+                            
+               /* ======= === PORTFOLIO PAGE === ======== */
+    
+       
+       
+       
+                             /*    =========Portfolio Header =========== */
+        .menu-link {
+            font-family: 'Roboto';
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.14;
+            letter-spacing: 0.02em;
+            color: #212121;
+    
+        }
+    
     .portfolio-page-header{
     padding-top: 24px;
     border-bottom: 1px solid #ECECEC;
     padding-bottom: 24px;
     }
+
+    .contact-phone-number {
+            font-family: 'Roboto';
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.14;
+            letter-spacing: 0.02em;
+            color: #757575;
+            padding-right: 15px;
+    
+        }
+    .contact-email {
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+       color: #757575;
+                }
+
+                                /* ======End Of Portfolio Header======= */
+
                 /* =============  =======  PORTFOLIO HERO  ======   ============ */
     
 .portfolio-list-hero{
