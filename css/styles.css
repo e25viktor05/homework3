@@ -240,7 +240,6 @@ background: #2F303A;
 
 .subtitle-text{
         line-height: 1.71;
-        letter-spacing: 0.03em;
         color: #757575;
         /* margin-bottom: 10px; */
 }
@@ -477,8 +476,8 @@ padding-right:auto; */
         font-family: inherit;
          padding-top: 6px;
          padding-bottom: 6px;
-         padding: right 22px;
-         /* border:none; */
+         padding-right: 22px;
+         border:none;
     }
     portfolio-btn:not(:last-child){
         margin-right: 8px;
